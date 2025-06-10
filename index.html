@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>sickyC – Apps & Projects</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      background: #f6f8fa;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      color: #222;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: linear-gradient(90deg, #74ebd5 0%, #ACB6E5 100%);
+      padding: 32px 0 24px 0;
+      text-align: center;
+      box-shadow: 0 4px 16px #bbb3;
+    }
+    header h1 {
+      font-size: 2.7em;
+      letter-spacing: 2px;
+      margin: 0;
+    }
+    header p {
+      margin: 12px 0 0 0;
+      font-size: 1.2em;
+    }
+    .container {
+      max-width: 650px;
+      margin: 32px auto;
+      background: #fff;
+      border-radius: 18px;
+      box-shadow: 0 2px 16px #aaa2;
+      padding: 32px 28px;
+    }
+    h2 {
+      border-bottom: 2px solid #ececec;
+      padding-bottom: 6px;
+      margin-top: 0;
+    }
+    .projects {
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+    }
+    .project {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      background: #f1f6fa;
+      border-radius: 12px;
+      padding: 18px 14px;
+      box-shadow: 0 1px 4px #bbb2;
+    }
+    .project img {
+      width: 64px;
+      height: 64px;
+      border-radius: 10px;
+      object-fit: cover;
+      background: #ddeefa;
+      border: 1.5px solid #b7daf5;
+    }
+    .project-info {
+      flex: 1;
+    }
+    .project-title {
+      font-size: 1.1em;
+      font-weight: bold;
+    }
+    .project-links a {
+      margin-right: 10px;
+      text-decoration: none;
+      color: #3078c6;
+      font-size: 0.98em;
+    }
+    .contact-links a {
+      display: inline-block;
+      margin-right: 12px;
+      text-decoration: none;
+      color: #1976d2;
+      font-weight: bold;
+      padding: 6px 0;
+    }
+    @media (max-width: 700px) {
+      .container {
+        padding: 18px 5vw;
+      }
+      .project {
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>sickyC</h1>
+    <p>Appmaker & Developer – building creative and useful projects for real life!</p>
+  </header>
+  <div class="container">
+    <section>
+      <h2>About me</h2>
+      <p>
+        Hi, I’m sickyC – I love solving everyday problems with code.<br>
+        Here you’ll find my favorite apps, fun projects and experiments.<br>
+        More is coming soon – follow my journey!
+      </p>
+    </section>
+    <section>
+      <h2>My Projects</h2>
+      <div class="projects">
+        <div class="project">
+          <img src="https://play-lh.googleusercontent.com/L1dbuQnxGHQuWQPGf1jE0VKHi_o03N79fON2ij0KQLIrd1vUnZhXXvlmtTbrtFntAio=w240-h480" alt="FiftyFifty">
+          <div class="project-info">
+            <div class="project-title">FiftyFifty</div>
+            <div>Quickly pick between two choices in a fun way! Get help when you can’t decide.</div>
+            <div class="project-links">
+              <a href="https://play.google.com/store/apps/details?id=sick.sick.fiftyfifty2" target="_blank">Play Store</a>
+              <a href="https://github.com/carlzey/fiftyfifty2" target="_blank">GitHub</a>
+            </div>
+          </div>
+        </div>
+        <div class="project">
+          <img src="https://cdn-icons-png.flaticon.com/512/992/992651.png" alt="Upcoming app">
+          <div class="project-info">
+            <div class="project-title">New project coming soon!</div>
+            <div>Follow my page for my next app – launching soon 🚀</div>
+            <div class="project-links">
+              <!-- Add links when ready -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section style="margin-top:32px;">
+      <h2>Contact & Follow</h2>
+      <div class="contact-links">
+        <a href="mailto:sickyC@gmail.com">Email me</a>
+        <a href="https://github.com/carlzey" target="_blank">GitHub</a>
+        <a href="https://instagram.com/sickyC" target="_blank">Instagram</a>
+        <!-- Add more links if you like -->
+      </div>
+    </section>
+  </div>
+</body>
+</html>
